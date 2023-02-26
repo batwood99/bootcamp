@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6; /*sets background color of entire page to light grey*/
+}
+
+header {
+    padding: 20px; /*sets header padding to 20 pixels*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*sets header font family*/
+    background-color: #2a607c; /*sets header background color to teal*/
+    color: #ffffff; /*sets header text color to white*/
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px; /*sizes the heading text that reads "Horiseon to 48 pixels*/
+}
+
+span{
+    color: #d9dcd6;
+}
+
+nav { /*navigation bar*/
+    padding-top: 15px; /*sets navigation bar padding to 15 pixels*/
+    margin-right: 20px; /*sets navigation bar right margin to 20 pixels*/
+    float: right; /*sets navigation bar to align to the right side of the page*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*sets navigation bar font family*/
+    font-size: 20px; /*sets navigation bar text to 20 pixels*/
+}
+
+ul {
+    list-style-type: none; /*eliminates bulet points*/
+}
+
+li {
+    display: inline-block; /*makes navigation bar items appear in a horizontal line*/
+    margin-left: 25px; /*makes navigation bar margin to the left 25 pixels wide*/
+}
+
+a {
+    color: #ffffff; /*navigation bar text color*/
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px; /*body text size*/
+}
+
+.hero {
+    height: 800px;
+    width: 100%; /*sets image to take up the entire width of the screen*/
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    width: 75%; /*sets main body to take up 75% of the screen*/
+    display: inline-block; /*makes content boxes appear consecutively*/
+    margin-left: 20px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.benefits { /*this class is for the entire container on the right side*/
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right; /*sets benefits section to the right side of the screen*/
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*sets font family for these containers*/
+    background-color: #2589bd;
+}
+
+.benefit-box { /*this class is for the individual boxes on the right side*/
+    margin-bottom: 32px;
+    color: #ffffff; /*sets text color for these containers to white*/
+}
+
+.benefit-box h3 { /*header text for the containers on the right side*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-box img { /*image formatting for the containers on the right side*/
+    display: block;
+    margin: 10px auto;
+    max-width: 150px; 
+}
+
+.search-engine-optimization-social-media-marketing { /*class for the first and third container in the main body*/
+    margin-bottom: 20px; /*sets bottom margin length to 20 pixels*/
+    padding: 50px; /*sets padding for these containers to 50 pixels*/
+    height: 300px; /*sets height for these containers to 300 pixels*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*sets font family for these containers*/
+    background-color: #0072bb; /*sets background color for these containers to teal*/
+    color: #ffffff; /*sets text color for these containers to white*/
+}
+
+.online-reputation-management { /*class for the second container in the main body*/
+    margin-bottom: 20px; /*sets bottom margin length to 20 pixels*/
+    padding: 50px; /*sets padding for this container to 50 pixels*/
+    height: 300px; /*sets height for this container to 300 pixels*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*sets font family for this container*/
+    background-color: #0072bb; /*sets text color for this container to teal*/
+    color: #ffffff; /*sets text color for this containers to white*/
+}
+
+.search-engine-optimization-social-media-marketing img { /*class for the first and third image in the main body*/
+    max-height: 200px; /*sets maximum image size to 200 pixels*/
+    float: left; /*sets image to align to the left*/
+    margin-right: 25px;
+}
+
+.online-reputation-management img { /*class for the second image in the main body*/
+    max-height: 200px; /*sets maximum image size to 200 pixels*/
+    float: right; /*sets image to align to the right*/
+    margin-left: 25px;
+}
+
+.footer {
+    padding: 30px; /*set padding for footer to 30 pixels*/
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*set font family for footer*/
+    text-align: center; /*sets text to center align in footer*/
+}
+
+.footer h2 {
+    font-size: 20px; /*sets header text size within footer to 20 pixels*/
+}
